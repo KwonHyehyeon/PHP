@@ -1,5 +1,6 @@
 <?php
     // 기본 설정
+    //로컬 서버
     $host = "localhost";
     $user = "root";
     $pass = "root";
@@ -13,4 +14,11 @@
     // } else {
     //     echo "Database Connect True";
     // }
+
+    // $host = "localhost";
+    // $user = "richclub9";
+    // $pass = "Forever0!";
+    // $db = "richclub9";
+    // $connect = new mysqli($host, $user, $pass, $db);
+    // $connect -> set_charset("utf8");
 ?>
