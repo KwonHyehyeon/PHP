@@ -41,27 +41,27 @@
                     <div class="join__box">
                         <div>
                             <label for="youEmail">이메일</label>
-                            <input type="email" id="youEmail" name="youEmail" placeholder="이메일을 적어주세요!" required>
+                            <input type="email" id="youEmail" name="youEmail" placeholder="이메일을 적어주세요!" autocomplete="off" required>
                         </div>
                         <div>
                             <label for="youName">이름</label>
-                            <input type="text" id="youName" name="youName" placeholder="이름을 적어주세요!" required>
+                            <input type="text" id="youName" name="youName" placeholder="이름을 적어주세요!" autocomplete="off" required>
                         </div>
                         <div>
                             <label for="youPass">비밀번호</label>
-                            <input type="password" id="youPass" name="youPass" placeholder="비밀번호를 적어주세요!" required>
+                            <input type="password" id="youPass" name="youPass" placeholder="비밀번호를 적어주세요!" autocomplete="off" required>
                         </div>
                         <div>
                             <label for="youPassC">비밀번호 확인</label>
-                            <input type="password" id="youPassC" name="youPassC" placeholder="확인 비밀번호를 적어주세요!" required>
+                            <input type="password" id="youPassC" name="youPassC" placeholder="확인 비밀번호를 적어주세요!" autocomplete="off" required>
                         </div>
                         <div>
                             <label for="youNickName">닉네임</label>
-                            <input type="text" id="youNickName" name="youNickName" placeholder="닉네임을 적어주세요!" required>
+                            <input type="text" id="youNickName" name="youNickName" placeholder="닉네임을 적어주세요!" autocomplete="off" required>
                         </div>
                         <div>
                             <label for="youPhone">휴대폰번호</label>
-                            <input type="text" id="youPhone" name="youPhone" placeholder="휴대폰번호를 적어주세요!" required>
+                            <input type="text" id="youPhone" name="youPhone" placeholder="휴대폰번호를 적어주세요!" autocomplete="off" required>
                         </div>
                     </div>
                     <button class="join__btn" type="submit">회원가입 완료</button>
